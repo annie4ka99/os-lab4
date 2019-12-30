@@ -13,9 +13,5 @@ while true; do
       kill -SIGTERM $(cat .pid_7)
       exit
       ;;
-    *)
-      continue
-      ;;
   esac
 done
-      
